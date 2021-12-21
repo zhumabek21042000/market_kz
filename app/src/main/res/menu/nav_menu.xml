@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <!--    <group android:id="@+id/groupmenu1">-->
+    <item android:id="@+id/nav_basket"
+        android:icon="@drawable/ic_basket"
+        android:title="Basket"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_favority"
+        android:title="Favorite"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Settings"
+        android:id="@+id/nav_settings" />
+    <item android:title="Profile"
+        android:id="@+id/nav_profile" />
+    <item android:title="Catalog"
+        android:id="@+id/nav_catalog">
+        <menu>
+            <item android:title="Item1"
+                android:id="@+id/nav_catalog_item1"/>
+        </menu>
+    </item>
+</menu>
